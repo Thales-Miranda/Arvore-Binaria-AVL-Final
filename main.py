@@ -62,6 +62,7 @@ def salvar_indice(avl, nome_arquivo_saida, total_palavras, palavras_distintas, p
         f.write(f"Número total de palavras: {total_palavras}\n")
         f.write(f"Número de palavras distintas: {palavras_distintas}\n")
         f.write(f"Total de palavras descartadas: {palavras_descartadas}\n")
+        f.write(f"Total de rotações executadas: {avl.rotacoes}\n")
         f.write(f"Tempo de construção do índice usando árvore AVL: {tempo:.3f}s\n")
 
 if __name__ == "__main__":
@@ -79,3 +80,24 @@ if __name__ == "__main__":
     palavra_freq, freq = avl.palavra_mais_frequente()
     print(f"Palavra mais frequente: '{palavra_freq}' ({freq} linhas)")
     print(f"Rotacoes executadas: {avl.rotacoes}")
+
+
+
+
+
+    #Teste do Medidor de Equilíbrio
+
+    palavra_teste = input("Digite uma palavra para calcular o Medidor de Equilíbrio (ME): ")
+
+    resultado_me = avl.medidor_equilibrio(palavra_teste)
+
+    if resultado_me == -1:
+        print("Palavra não encontrada na árvore.")
+    elif resultado_me == 0:
+        print("Palavra encontrada. O nó está perfeitamente equilibrado (ME = 0).")
+    else:
+        print("Palavra encontrada. O nó apresenta desequilíbrio.")
+
+
+
+
