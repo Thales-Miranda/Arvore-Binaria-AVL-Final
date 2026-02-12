@@ -96,7 +96,8 @@ arvore = AVL()
 Inserindo palavras com número da linha
 arvore.insere("coracao", 1)
 arvore.insere("delator", 1)
-arvore.insere("coracao", 3)  # mesma palavra em outra linha
+arvore.insere("coracao", 3)  
+mesma palavra em outra linha
 
 Buscando uma palavra
 no = arvore.busca("coracao")
@@ -151,7 +152,7 @@ print(f"{palavra} aparece em {freq} linhas.")
 
 POE, Edgar Allan. O Coração Delator. 1843.
 
-O texto foi utilizado exclusivamente para fins acadêmicos na construção do índice remissivo.
+O texto foi utilizado exclusivamente para fins acadêmicos no teste do índice remissivo.
 
 
 
