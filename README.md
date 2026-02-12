@@ -144,3 +144,14 @@ Palavra Mais Frequente
 
 palavra, freq = avl.palavra_mais_frequente()
 print(f"{palavra} aparece em {freq} linhas.")
+
+
+
+## Referências
+
+POE, Edgar Allan. O Coração Delator. 1843.
+
+O texto foi utilizado exclusivamente para fins acadêmicos na construção do índice remissivo.
+
+
+

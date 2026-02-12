@@ -668,4 +668,4 @@ Número total de palavras: 1936
 Número de palavras distintas: 665
 Total de palavras descartadas: 44
 Total de rotações executadas: 447
-Tempo de construção do índice usando árvore AVL: 0.008s
+Tempo de construção do índice usando árvore AVL: 0.035s
